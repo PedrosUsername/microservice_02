@@ -42,5 +42,6 @@ public class CartController {
     }
 
 
-
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public void clear(@PathVariable("id") Integer id){ cartRepository.deleteById(id); }
 }
