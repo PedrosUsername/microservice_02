@@ -15,14 +15,13 @@ aqui para fins didáticos.
 
 ## Esse projeto foi feito com Spring Boot:
 
-Inicie-o no seu sistema com o comando
+Com o { [Config Server](https://github.com/PedrosUsername/config_server), [Service Discovery](https://github.com/PedrosUsername/service_discovery), [Gateway](https://github.com/PedrosUsername/gateway) } e o Elasticsearch funcionando, inicie o projeto no seu sistema com o comando:
 
 ```shell script
 $ ./gradlew bootRun
 ```
 
-Com o Elasticsearch e o [Config Server](https://github.com/PedrosUsername/config_server)
-em funcionamento, recupere um registro (ou null) com:
+Recupere um registro (ou null) com:
 
 ```shell script
 $ curl -X GET localhost:8082/cart/1
