@@ -13,7 +13,7 @@ import java.util.Optional;
 
 
 @RestController
-@RequestMapping(value = "/api/cart")
+@RequestMapping(value = "/cart")
 public class CartController {
 
     @Autowired
